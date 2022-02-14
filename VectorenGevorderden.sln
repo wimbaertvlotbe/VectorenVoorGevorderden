@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorsEnPairs", "ConsoleApplication8\ConsoleApplication8.vcxproj", "{EA97D88A-44A5-4957-9DE3-4BD758C79A65}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tupletest", "tupletest\tupletest.vcxproj", "{20655991-D63B-45FA-9154-C11499E7331D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TupleTest", "tupletest\tupletest.vcxproj", "{20655991-D63B-45FA-9154-C11499E7331D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
