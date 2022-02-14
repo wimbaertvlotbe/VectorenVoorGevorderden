@@ -1,24 +1,4 @@
-#include <iostream>
-#include <sstream>
-#include <vector>
-#include <string>
-#include <limits>
-#include <tuple>
-
-using namespace std;
-
-#define MIN_JAAR 0
-#define MAX_JAAR 3000
-#define MIN_CATEGORIE 1
-#define MAX_CATEGORIE 10
-#define AANTALBOEKEN 2
-
-typedef tuple<string, string, int,int> boek;
-
-vector<boek> leesBoekGegevens();
-int leesInt(string msg, string errmsg, int min, int max);
-string leesString(string);
-string printBoekenLijst(vector<boek>);
+#include "TupleTest.h"
 
 int main()
 {
@@ -102,7 +82,11 @@ vector<boek> leesBoekGegevens()
         auteur = leesString("Auteur : ");
         jaar = leesInt("Jaar van uitgave ", "Geef een geldige waarde in!\n", MIN_JAAR, MAX_JAAR);
         genre = leesInt("Boekcategorie ", "Geef een geldige waarde in!\n", MIN_CATEGORIE, MAX_CATEGORIE);
+
+        //tuple samenstellen
         boek eenboek (titel, auteur, jaar, genre);
+
+        //tuple opslaan in vector
         boeken.push_back(eenboek);
     }
 
