@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication8", "ConsoleApplication8\ConsoleApplication8.vcxproj", "{EA97D88A-44A5-4957-9DE3-4BD758C79A65}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorsEnPairs", "ConsoleApplication8\ConsoleApplication8.vcxproj", "{EA97D88A-44A5-4957-9DE3-4BD758C79A65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tupletest", "tupletest\tupletest.vcxproj", "{20655991-D63B-45FA-9154-C11499E7331D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{EA97D88A-44A5-4957-9DE3-4BD758C79A65}.Release|x64.Build.0 = Release|x64
 		{EA97D88A-44A5-4957-9DE3-4BD758C79A65}.Release|x86.ActiveCfg = Release|Win32
 		{EA97D88A-44A5-4957-9DE3-4BD758C79A65}.Release|x86.Build.0 = Release|Win32
+		{20655991-D63B-45FA-9154-C11499E7331D}.Debug|x64.ActiveCfg = Debug|x64
+		{20655991-D63B-45FA-9154-C11499E7331D}.Debug|x64.Build.0 = Debug|x64
+		{20655991-D63B-45FA-9154-C11499E7331D}.Debug|x86.ActiveCfg = Debug|Win32
+		{20655991-D63B-45FA-9154-C11499E7331D}.Debug|x86.Build.0 = Debug|Win32
+		{20655991-D63B-45FA-9154-C11499E7331D}.Release|x64.ActiveCfg = Release|x64
+		{20655991-D63B-45FA-9154-C11499E7331D}.Release|x64.Build.0 = Release|x64
+		{20655991-D63B-45FA-9154-C11499E7331D}.Release|x86.ActiveCfg = Release|Win32
+		{20655991-D63B-45FA-9154-C11499E7331D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

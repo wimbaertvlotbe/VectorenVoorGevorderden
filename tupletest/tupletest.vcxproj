@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ea97d88a-44a5-4957-9de3-4bd758c79a65}</ProjectGuid>
-    <RootNamespace>ConsoleApplication8</RootNamespace>
+    <ProjectGuid>{20655991-d63b-45fa-9154-c11499e7331d}</ProjectGuid>
+    <RootNamespace>tupletest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>VectorsEnPairs</ProjectName>
+    <ProjectName>TupleTest</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="VectorsEnPairs.cpp" />
+    <ClCompile Include="TupleTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

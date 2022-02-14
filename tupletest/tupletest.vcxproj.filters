@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VectorsEnPairs.cpp">
+    <ClCompile Include="TupleTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
